@@ -65,9 +65,9 @@ Padrão **MVVM** com Repository. A UI observa o `HomeUiState` via `StateFlow` e 
 
 | API | Como obter a chave |
 |---|---|
-| Mapbox | [mapbox.com](https://mapbox.com) — crie uma conta e gere um token |
+| Mapbox | [mapbox.com](https://mapbox.com) — gratuito |
 | NASA FIRMS | [firms.modaps.eosdis.nasa.gov](https://firms.modaps.eosdis.nasa.gov/api/) — gratuito |
-| OpenWeatherMap | [openweathermap.org](https://openweathermap.org/api) — plano gratuito |
+| OpenWeatherMap | [openweathermap.org](https://openweathermap.org/api) — gratuito |
 
 As chaves estão em `util/Constants.kt`.
 
