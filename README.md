@@ -93,4 +93,5 @@ As chaves estão em `util/Constants.kt`.
 
 ---
 
-Projeto acadêmico — FIAP Global Solution 2025
+Projeto acadêmico — FIAP Global Solution 2026
+
