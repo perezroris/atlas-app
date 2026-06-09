@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Icone da splash screen: pin com globo usando recortes transparentes (evenOdd) -->
+<!-- A grade do globo aparece como linhas escuras pois o fundo aparece pelos buracos -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- ── ANEL DO PIN: teardrop branco com globo recortado no centro ── -->
+    <!-- evenOdd: onde os dois paths se sobrepoem vira transparente (buraco) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="
+            M54,10 C35,10 20,26 20,44 C20,60 30,73 44,80 L54,98 L64,80 C78,73 88,60 88,44 C88,26 73,10 54,10 Z
+            M28,44 a26,26 0 1,0 52,0 a26,26 0 1,0 -52,0
+        " />
+
+    <!-- ── GLOBO: circulo branco com grade recortada ── -->
+    <!-- os retangulos da grade cortam o branco, deixando o fundo escuro aparecer -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="
+            M28,44 a26,26 0 1,0 52,0 a26,26 0 1,0 -52,0
+            M28,42.2 L80,42.2 L80,45.8 L28,45.8 Z
+            M30,32.5 L78,32.5 L78,35.5 L30,35.5 Z
+            M30,52.5 L78,52.5 L78,55.5 L30,55.5 Z
+            M52.2,18 L55.8,18 L55.8,70 L52.2,70 Z
+            M40.5,20 L43.5,20 L43.5,68 L40.5,68 Z
+            M64.5,20 L67.5,20 L67.5,68 L64.5,68 Z
+        " />
+
+    <!-- ── PONTO NA PONTA DO PIN ── -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,89 m-4.5,0 a4.5,4.5 0 1,0 9,0 a4.5,4.5 0 1,0 -9,0" />
+
+</vector>
