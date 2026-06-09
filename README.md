@@ -1,6 +1,6 @@
 # Atlas — Navegação Climática
 
-Aplicativo Android desenvolvido para a **FIAP Global Solution 2025**.
+Aplicativo Android desenvolvido para a **FIAP Global Solution 2026**.
 
 O Atlas é um app de navegação que integra dados climáticos em tempo real para tornar o deslocamento urbano mais seguro. Ele cruza a rota do usuário com informações de riscos ambientais — como focos de queimada e pontos de alagamento — e sugere automaticamente o caminho mais seguro quando detecta algum perigo no trajeto. A versão atual foca nos riscos mais comuns em São Paulo, mas a arquitetura foi pensada para suportar novos tipos de risco climático conforme o app evolui.
 
